@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+}
+body{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+header{
+    border-bottom: solid 1px  grey;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+header div img{
+    width: 150px;
+}
+
+.search{
+    width: 200px;
+    background-color: antiquewhite;
+    height: 25px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.search i{
+    padding: 5%;
+}
+
+.right_header{
+    position: absolute;
+    right: 10px;
+}
+
+.right_ico i{
+    padding: 10px;
+}
+
+/* main */
+main{
+    display: flex;
+    padding-left: 500px;
+    flex-direction: row;
+    
+
+}
+
+nav{
+    padding: 20px;
+    display:flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+
+
+
+.navbar{
+    border-bottom: solid 1px grey;
+    margin: 10px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+.article{
+    border-right: 1px solid grey;
+    min-height: 800px;
+    width: 500px;
+    
+    padding: 50px;
+    margin-right: 25px;
+    
+    
+}
+
+.contenitor{
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 200px;
+    
+    padding: 50px;
+    position: sticky; /* non capisco perche non funziona  */
+    top: 0px;
+    
+}
+
+/* card */
+
+.card  {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px grey;
+    margin: 10px;
+}
+
+.nome   {
+    padding: 10px;
+}
+
+.titolo{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 300px;
+}
+
+.tlc{
+    padding:10px;
+    display: flex;
+    justify-content: space-between ;
+}
+.immagine{
+    width: 200px;
+    height: 100px;
+    background-image: url(assets/Immagine1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card_cont{
+    display: flex;
+}
+
+
+.see{
+    color: orange;
+    margin-top: 10px ;
+    margin-bottom: 30px;
+}
+
+.contenitoreuno h4{
+    margin-bottom: 5px;
+}
+
+.cont_nom div{
+    margin-bottom: 10px;
+}
+
+.contenitoreuno{
+    margin-bottom: 15px;
+}
+
+.contenitoredue{
+    display: flex;
+}
+
+.b_topic{
+    background-color: aquamarine;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.utente_follow{
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+.follow {
+    margin-left: 40px;
+    border: solid 1px black;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.fol_cont{
+    margin: 10px 0;
+}
+
+.foot{
+    margin: 10px 0;
+}
+
+.foot h4{
+    margin: 5px 0;
+}
+
+.span_f{
+    font-size: small;
+}
+
+h2{
+    font-size: medium;
+}
+
